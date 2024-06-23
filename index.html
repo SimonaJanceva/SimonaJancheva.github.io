@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/logo.webp" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#travel">Travel</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <div class="slika1" >
+                <img src="Images/backgroundddd.jpg">
+            </div>
+            <p>Student of Software Engineering and Information Systems</p>
+            <h1>Hi, I'm <span>Simona Jancheva</span><br>From Macedonia</h1>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/backgroundddd.jpg"
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Simona, I am 20 years old and I am currently
+                    enrolled in undergraduate studies at the Faculty
+                    of Information Sciences and Computer Engineering
+                    in Skopje. I chose the software engineering and
+                    information systems major because one day I want
+                    to become an engineer.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="function opentab(skills) {
+                    
+                    }
+                    opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Interpersonal communication</span><br>Openness to communicate with people</li>
+                        <li><span>Тeam spirit</span><br>Always ready to work in groups</li>
+                        <li><span>Computer programs</span><br>Using programs and work with hardware and software</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023-Current</span><br>Undergraduate studies<br>St. Cyril and Methodius University - Skopje,
+                            Faculty of Information Sciences and Computer Engineering (FINKI)</li>
+                        <li><span>2019-2023</span><br>High School<br>High School "Dobri Daskalov" - Kavadarci,
+                            Science and Mathematics A major</li>
+                        <li><span>2010-2019</span><br>Primary education<br>Elementary School "Dimkata Angelov Gaberot" - Kavadarci</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>Erasmus+</span><br>Youth exchange projects with students of different ages</li>
+                        <li><span>Voluntary competitions</span><br>Competitions of MENDO for informatics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="travel">
+    <div class="container">
+        <h1 class="sub-title3">My Travel</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/italy.jpg">
+                <div class="layer">
+                    <h3>Visit Venice!</h3>
+                    <p>I have visited Venice, it is beautiful with narrow
+                        streets and specific culture. Pizza and pasta is
+                        a must try!</p>
+                    <a href="#"><img src="Images/link.png"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/stokholm.jpg">
+                <div class="layer">
+                    <h3>Visit Stockholm!</h3>
+                    <p>Stockholm is different from all the countries
+                        I have visited so far. Their standard of
+                        living is extraordinary.</p>
+                    <a href="#"><img src="Images/link.png"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/burano.webp">
+                <div class="layer">
+                    <h3>Visit Burano,Italy!</h3>
+                    <p>My favorite is Burano. Colorful, interesting and warm,
+                        I would always come back again.</p>
+                    <a href="#"><img src="Images/link.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="hobbies">
+    <div class="container">
+        <h1 class="sub-title4">My Hobbies</h1>
+        <div class="work-list2">
+            <div class="work2">
+                <img src="Images/volleyball.jpg">
+                <div class="layer2">
+                    <h3>Playing Volleyball</h3>
+                    <p>One of my favorite things to do when I have free time is
+                        playing volleyball with friends.
+                        I've been playing for 9 years now and I really love it.</p>
+                </div>
+            </div>
+            <div class="work2">
+                <img src="Images/coding.jpg">
+                <div class="layer2">
+                    <h3>Coding</h3>
+                    <p>Of course what I'm learning and interested in is also my hobby,
+                        because I'm constantly wanting to discover new things about
+                        coding and programming. I do that all the time.</p>
+                </div>
+            </div>
+            <div class="work2">
+                <img src="Images/watching-movie.jpg">
+                <div class="layer2">
+                    <h3>Watching movies</h3>
+                    <p>Watching movies and series always calms me down.
+                        My favorite genres are action, thriller and adventure.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row3">
+            <div class="contact-left">
+                <h1 class="sub-title5">Contact Me</h1>
+                <p>contact@example.com</p>
+                <p>0123456789</p>
+                <div class="social-icons">
+                    <a href=""><img src="Images/facebook.jpg"></a>
+                    <a href=""><img src="Images/twitter.webp"></a>
+                    <a href=""><img src="Images/instagram.webp"></a>
+                    <a href=""><img src="Images/linkedin.png"></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="email" name="email" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>©Simona Jancheva</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+</body>
+</html>
